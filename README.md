@@ -1,17 +1,25 @@
 Tensorflow code for paper: Transductive Prototypical Network for Few-shot Classification (ICIP2020)
 
 Requirements:
+
 Python 3.6
+
 Tensorflow 1.8.0
+
 numpy
+
 tqdm
+
 opencv-python
+
 pillow
 
 Download data (miniImagenet and tieredImagenet):
+
 Please download the compressed tar files from: https://github.com/renmengye/few-shot-ssl-public
 
 Create a directory for miniImagenet:
+
 mkdir -p data/mini-imagenet
 mv mini-imagenet.tar.gz data/mini-imagenet
 cd data/mini-imagenet
@@ -19,6 +27,7 @@ tar -zxvf mini-imagenet.tar.gz
 rm -f mini-imagenet.tar.gz
 
 Create a directory for tieredImagenet:
+
 mkdir -p data/tiered-imagenet
 mv tiered-imagenet.tar data/tiered-imagenet
 cd data/tiered-imagenet
