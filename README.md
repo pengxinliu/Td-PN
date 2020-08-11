@@ -23,7 +23,7 @@
 
 * Create a directory for miniImagenet:
 
-< mkdir -p data/mini-imagenet
+> mkdir -p data/mini-imagenet
 
 mv mini-imagenet.tar.gz data/mini-imagenet
 
@@ -31,7 +31,7 @@ cd data/mini-imagenet
 
 tar -zxvf mini-imagenet.tar.gz
 
-rm -f mini-imagenet.tar.gz >
+rm -f mini-imagenet.tar.gz <
 
 
 Create a directory for tieredImagenet:
