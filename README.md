@@ -16,14 +16,14 @@
 - pillow
 
 
-Download data (miniImagenet and tieredImagenet):
+# Download data (miniImagenet and tieredImagenet):
 
-Please download the compressed tar files from: https://github.com/renmengye/few-shot-ssl-public
+- Please download the compressed tar files from: https://github.com/renmengye/few-shot-ssl-public
 
 
-Create a directory for miniImagenet:
+* Create a directory for miniImagenet:
 
-mkdir -p data/mini-imagenet
+< mkdir -p data/mini-imagenet
 
 mv mini-imagenet.tar.gz data/mini-imagenet
 
@@ -31,7 +31,7 @@ cd data/mini-imagenet
 
 tar -zxvf mini-imagenet.tar.gz
 
-rm -f mini-imagenet.tar.gz
+rm -f mini-imagenet.tar.gz >
 
 
 Create a directory for tieredImagenet:
