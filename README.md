@@ -1,19 +1,19 @@
 # Tensorflow code for paper: Transductive Prototypical Network for Few-shot Classification (ICIP2020)
 
 
-Requirements:
+# Requirements:
 
-Python 3.6
+- Python 3.6
 
-Tensorflow 1.8.0
+- Tensorflow 1.8.0
 
-numpy
+- numpy
 
-tqdm
+- tqdm
 
-opencv-python
+- opencv-python
 
-pillow
+- pillow
 
 
 Download data (miniImagenet and tieredImagenet):
